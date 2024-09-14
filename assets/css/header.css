@@ -451,7 +451,7 @@ input, select, textarea {
 		}
 	}
 
-	#header {
+	#headerid {
 		-moz-animation: header 1s 2.25s forwards;
 		-webkit-animation: header 1s 2.25s forwards;
 		-ms-animation: header 1s 2.25s forwards;
@@ -474,24 +474,24 @@ input, select, textarea {
 		width: 90%;
 	}
 
-		#header h1 {
+		#headerid h1 {
 			font-size: 4.35em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
 		}
 
-		#header p {
+		#headerid p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
 
-		#header nav {
+		#headerid nav {
 			margin: 1.5em 0 0 0;
 		}
 
-			#header nav li {
+			#headerid nav li {
 				-moz-animation: nav-icons 0.5s ease-in-out forwards;
 				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
 				-ms-animation: nav-icons 0.5s ease-in-out forwards;
@@ -513,84 +513,84 @@ input, select, textarea {
 				width: 5.35em;
 			}
 
-				#header nav li:nth-child(1) {
+				#headerid nav li:nth-child(1) {
 					-moz-animation-delay: 2.5s;
 					-webkit-animation-delay: 2.5s;
 					-ms-animation-delay: 2.5s;
 					animation-delay: 2.5s;
 				}
 
-				#header nav li:nth-child(2) {
+				#headerid nav li:nth-child(2) {
 					-moz-animation-delay: 2.75s;
 					-webkit-animation-delay: 2.75s;
 					-ms-animation-delay: 2.75s;
 					animation-delay: 2.75s;
 				}
 
-				#header nav li:nth-child(3) {
+				#headerid nav li:nth-child(3) {
 					-moz-animation-delay: 3s;
 					-webkit-animation-delay: 3s;
 					-ms-animation-delay: 3s;
 					animation-delay: 3s;
 				}
 
-				#header nav li:nth-child(4) {
+				#headerid nav li:nth-child(4) {
 					-moz-animation-delay: 3.25s;
 					-webkit-animation-delay: 3.25s;
 					-ms-animation-delay: 3.25s;
 					animation-delay: 3.25s;
 				}
 
-				#header nav li:nth-child(5) {
+				#headerid nav li:nth-child(5) {
 					-moz-animation-delay: 3.5s;
 					-webkit-animation-delay: 3.5s;
 					-ms-animation-delay: 3.5s;
 					animation-delay: 3.5s;
 				}
 
-				#header nav li:nth-child(6) {
+				#headerid nav li:nth-child(6) {
 					-moz-animation-delay: 3.75s;
 					-webkit-animation-delay: 3.75s;
 					-ms-animation-delay: 3.75s;
 					animation-delay: 3.75s;
 				}
 
-				#header nav li:nth-child(7) {
+				#headerid nav li:nth-child(7) {
 					-moz-animation-delay: 4s;
 					-webkit-animation-delay: 4s;
 					-ms-animation-delay: 4s;
 					animation-delay: 4s;
 				}
 
-				#header nav li:nth-child(8) {
+				#headerid nav li:nth-child(8) {
 					-moz-animation-delay: 4.25s;
 					-webkit-animation-delay: 4.25s;
 					-ms-animation-delay: 4.25s;
 					animation-delay: 4.25s;
 				}
 
-				#header nav li:nth-child(9) {
+				#headerid nav li:nth-child(9) {
 					-moz-animation-delay: 4.5s;
 					-webkit-animation-delay: 4.5s;
 					-ms-animation-delay: 4.5s;
 					animation-delay: 4.5s;
 				}
 
-				#header nav li:nth-child(10) {
+				#headerid nav li:nth-child(10) {
 					-moz-animation-delay: 4.75s;
 					-webkit-animation-delay: 4.75s;
 					-ms-animation-delay: 4.75s;
 					animation-delay: 4.75s;
 				}
 
-			#header nav a {
+			#headerid nav a {
 				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 				-webkit-touch-callout: none;
 				border: 0;
 				display: inline-block;
 			}
 
-				#header nav a:before {
+				#headerid nav a:before {
 					-moz-transition: all 0.2s ease-in-out;
 					-webkit-transition: all 0.2s ease-in-out;
 					-ms-transition: all 0.2s ease-in-out;
@@ -607,26 +607,26 @@ input, select, textarea {
 					width: 2.5em;
 				}
 
-				#header nav a:hover {
+				#headerid nav a:hover {
 					font-size: 1.1em;
 				}
 
-					#header nav a:hover:before {
+					#headerid nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
 						color: #fff;
 					}
 
-				#header nav a:active {
+				#headerid nav a:active {
 					font-size: 0.95em;
 					background: none;
 				}
 
-					#header nav a:active:before {
+					#headerid nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
 						color: #fff;
 					}
 
-				#header nav a span {
+				#headerid nav a span {
 					display: none;
 				}
 
@@ -899,23 +899,23 @@ input, select, textarea {
 
 	/* Header */
 
-		#header h1 {
+		#headerid h1 {
 			font-size: 2.5em;
 		}
 
-		#header p {
+		#headerid p {
 			font-size: 1em;
 		}
 
-		#header nav {
+		#headerid nav {
 			font-size: 1em;
 		}
 
-			#header nav a:hover {
+			#headerid nav a:hover {
 				font-size: 1em;
 			}
 
-			#header nav a:active {
+			#headerid nav a:active {
 				font-size: 1em;
 			} }
 
@@ -997,16 +997,7 @@ input, select, textarea {
 
 	/* Header */
 
-		#header nav {
+		#headerid nav {
 			padding: 0 1em;
 		} }
 
-#new-top {
-	background: url('images/bg.jpg') no-repeat center center;
-	background-size: cover; /* Ensures the background covers the entire article */
-	position: relative; /* Necessary to position the pseudo-element relative to the article */
-	width: 100%; /* Set width to 100% to take the full width of the page */
-	height: auto; /* You can adjust the height or add min-height if needed */
-	padding: 20px; /* Optional padding to make sure content inside is spaced well */
-	color: white; /* Optional, if you want the text to be readable on dark backgrounds */
-}

@@ -2586,3 +2586,8 @@ input[type="reset"]:hover {
     color: white;
     border-color: #007BFF;
 }
+
+#portfolio {
+    background-color: white;
+}
+
