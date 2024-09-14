@@ -33,59 +33,6 @@
 
 })(jQuery);
 
-// // dyanmically create filter buttons
-// document.addEventListener('DOMContentLoaded', function() {
-//     const projects = document.querySelectorAll('.col-4');  // Updated class name for project containers
-//     const filterContainer = document.getElementById('filters'); // Assuming you have a container with the id 'filters'
-//     let allTags = new Set();  // Use a Set to store unique tags
-
-//     // Loop through each project to collect tags
-//     projects.forEach(project => {
-//         let tags = project.getAttribute('data-tags');
-//         if (tags) {  // Check if project has tags
-//             tags.split(',').map(tag => tag.trim()).forEach(tag => allTags.add(tag));  // Add tags to the Set
-//         }
-//     });
-
-//     // Create the "All" button manually
-//     let allButton = document.createElement('button');
-//     allButton.textContent = 'All';
-//     allButton.setAttribute('data-filter', 'all');
-//     filterContainer.appendChild(allButton);
-
-//     // Create buttons for each unique tag
-//     allTags.forEach(tag => {
-//         let button = document.createElement('button');
-//         button.textContent = tag.charAt(0).toUpperCase() + tag.slice(1);  // Capitalize the first letter
-//         button.setAttribute('data-filter', tag);
-//         filterContainer.appendChild(button);
-//     });
-
-//     // Add event listener to filter buttons
-//     filterContainer.addEventListener('click', function(e) {
-// 		if (e.target.tagName === 'BUTTON') {
-// 			e.preventDefault();  // Prevent default button behavior
-// 			const filter = e.target.getAttribute('data-filter');
-// 			// Ensure that 'projects' only contains elements with the class 'project'
-// 			const projects = document.querySelectorAll('.project');
-// 			projects.forEach(project => {
-// 				const tags = project.getAttribute('data-tags') ? project.getAttribute('data-tags').split(',').map(tag => tag.trim()) : [];
-// 				if (filter === 'all' || tags.includes(filter)) {
-// 					project.style.display = 'block';
-// 				} else {
-// 					project.style.display = 'none';
-// 				}
-// 			});
-	
-// 			// Scroll to the portfolio section after filtering
-// 			const portfolioSection = document.getElementById('portfolio');
-// 			if (portfolioSection) {
-// 				portfolioSection.scrollIntoView({ behavior: 'smooth' });
-// 			}
-// 		}
-// 	});
-// });
-
 // Dynamically create filter buttons
 document.addEventListener('DOMContentLoaded', function() {
     const projects = document.querySelectorAll('.col-4');  // Updated class name for project containers
